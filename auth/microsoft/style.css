@@ -255,3 +255,17 @@ a:hover{
         padding-top: 15px;
     }
 }
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    body {
+        font-size: 14px;
+    }
+
+    #ms-logo {
+        max-width: 100px;
+    }
+
+    /* Adjust other elements as needed */
+    /* ... */
+}
