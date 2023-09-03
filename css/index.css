@@ -232,8 +232,10 @@ video {
   margin-bottom: 10px;
 }
 #fb {
-  width: 50px;
-  height: 50px;
+  width: 10%;
+  height: 10%;
+  position: relative;
+  top: 5px;
 }
 #fb:active {
   width: 50px;
@@ -241,8 +243,10 @@ video {
   box-shadow: 1px 1px 1px gray;
 }
 #yh {
-  width: 50px;
-  height: 50px;
+  width: 25%;
+  height: 25%;
+  position: relative;
+  top: 5px;
 }
 #yh:active {
   width: 50px;
@@ -250,8 +254,8 @@ video {
   box-shadow: 1px 1px 1px gray;
 }
 #ig {
-  width: 60px;
-  height: 60px;
+  width: 13%;
+  height: 13%;
   position: relative;
   top: 5px;
 }
@@ -263,8 +267,8 @@ video {
   box-shadow: 1px 1px 1px gray;
 }
 #hm {
-  width: 60px;
-  height: 60px;
+  width: 25%;
+  height: 25%;
   position: relative;
   top: 5px;
 }
@@ -278,7 +282,7 @@ video {
 #choose {
   background-color: white;
   width: 80%;
-  height: 30vh;
+  height: 40vh;
   border-style: dotted;
   border-width: 2px;
   border-color: rgba(42, 6, 6, 0.292);

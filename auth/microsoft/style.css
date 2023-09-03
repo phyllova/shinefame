@@ -1,4 +1,4 @@
-body{
+/* body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@ body{
     background-position-y: -95px;
     padding: 0px;
     margin: 0px;
-}
+} */
 
 main{
     min-height: 95vh;
