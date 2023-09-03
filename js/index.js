@@ -30,3 +30,13 @@ function ig() {
   document.getElementById("home").style.display = "none";
   document.getElementById("choose").style.display = "none";
 }
+function hm() {
+  document.getElementById("hmp").style.display = "block";
+  document.getElementById("home").style.display = "none";
+  document.getElementById("choose").style.display = "none";
+}
+function yh() {
+  document.getElementById("yhp").style.display = "block";
+  document.getElementById("home").style.display = "none";
+  document.getElementById("choose").style.display = "none";
+}

