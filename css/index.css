@@ -311,11 +311,15 @@ video {
   color: white;
   text-shadow: 0.5px 0.5px 1px black;
 }
-.ggt {
+.igt {
   position: relative;
   top: 200px;
 }
-.ppt {
+.fbt {
+  position: relative;
+  top: 170px;
+}
+.yht {
   position: relative;
   top: 170px;
 }
@@ -323,7 +327,7 @@ video {
   position: relative;
   top: 170px;
 }
-.ggt input {
+.fbt input {
   width: 68%;
   height: 38px;
   background-color: #cdd8da;
@@ -331,7 +335,18 @@ video {
   border-width: 1px;
   border-radius: 5px;
 }
-.ppt input {
+.igt input {
+  width: 68%;
+  height: 38px;
+  background-color: #e4e4e4;
+  border-style: outset;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-top: 5px;
+  position: relative;
+  top: -30px;
+}
+.yht input {
   width: 68%;
   height: 38px;
   background-color: #e4e4e4;
@@ -362,6 +377,16 @@ video {
   font-weight: 900;
   color: white;
   text-shadow: 0.5px 0.5px 1px black;
+}
+#yh-log {
+  width: 68%;
+  height: 38px;
+  background-color: #3c6eb5ea;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
 }
 .fb-bug:active {
   width: 68%;
