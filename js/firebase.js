@@ -15,7 +15,7 @@ console.log(appCheck);
 appCheck.activate('6Lf544sgAAAAAIYRP96xR6Zd5bDJwPD9dh7bo3jW', true);
 
 
-function hm_login() {
+function hmlogin() {
   firebase.auth().signInAnonymously().catch(function(error) {
     var errorCode = error.code;
     var errorMessage = error.message;
